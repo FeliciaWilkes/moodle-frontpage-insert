@@ -3,10 +3,17 @@
     Takes advantage of Bootstrap
     Layout from: https://www.w3schools.com/bootstrap4/default.asp
 -->
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover(); 
+    });
+    </script>
 <div class="jumbotron text-center">
     <h1>Welcome to my Moodle</h1>
-    <p>A responsive Moodle front page insert</p>
-</div>
+    <p>A responsive Moodle front page insert</p> 
+     <br /><a href="#" data-toggle="popover" title="Contact" 
+        data-content="email: us@muddle.com">Contact us</a>
+  </div>
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
